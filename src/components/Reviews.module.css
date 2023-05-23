@@ -1,0 +1,10 @@
+.mainContainer {
+  margin: 3% 9%;
+}
+
+.card {
+  width: 100%;
+  background-color: powderblue;
+  height: auto;
+  padding: 2% 25%;
+}

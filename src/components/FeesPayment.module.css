@@ -1,0 +1,21 @@
+.mainContainer {
+    margin: 3% 9%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.childCont {
+    padding : 1% 3%
+}
+
+.container2 {
+    padding: 1% 3%
+}
+
+.wrapperContainer {
+    display: flex;
+    flex-direction: row;
+}

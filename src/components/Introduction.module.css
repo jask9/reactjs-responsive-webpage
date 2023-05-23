@@ -1,0 +1,53 @@
+h3 {
+    font-size: 25px;
+}
+
+.mainContainer {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* margin: 30px 100px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 9%;
+}
+
+.left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.approvalContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.approval {
+  padding-right: 20px;
+}
+
+/* .rightContainer {
+  padding-left: 3%;
+} */
+
+.bannerImg {
+  width: 100%;
+  height: auto;
+  margin-left: 6%;
+}
+
+.awardImg {
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.bottomContainer {
+    margin: 5% 9% 3%;
+    border-bottom: 5px solid black;
+}

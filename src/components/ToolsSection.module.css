@@ -1,0 +1,18 @@
+.toolsContainer {
+  /* display: inline-block; */
+  margin: 3% 9%;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+/* .logosContainer {
+    display: flex;
+    flex-direction: column;
+} */
+
+img {
+  width: 100%;
+  height: auto 
+}

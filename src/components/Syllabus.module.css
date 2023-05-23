@@ -1,0 +1,29 @@
+.topContainer {
+  display: inline-block;
+  margin: 1% 9%;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  margin: 1% 9%;
+}
+
+.leftConatiner {
+  padding: 3%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+/* .smallBox {
+    margin: 3%;
+    padding:5%;
+} */
+
+.smallBox {
+  background-color: red;
+}

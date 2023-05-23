@@ -14,16 +14,20 @@ import Shopify from "../assets/tools/Shopify.webp";
 import Spyfu from "../assets/tools/Spyfu.jpg";
 import TwitterAds from "../assets/tools/Twitter-Ads.jpg";
 
-const tools1 = [
+const tools = [
   Annie,
   Buffers,
   FacebookAds,
   GoogleAds,
   GoogleAnalytics,
   GoogleConsole,
+  Grammarly,
+  HootSuite,
+  MailChimp,
+  Shopify,
+  Spyfu,
+  TwitterAds,
 ];
-
-const tools2 = [Grammarly, HootSuite, MailChimp, Shopify, Spyfu, TwitterAds];
 
 function ToolsSection() {
   return (
@@ -31,23 +35,14 @@ function ToolsSection() {
       <h2>Tools You'll Master</h2>
       <hr width="10%" color="#012d36" size="8" align="left" />
 
-      <div>
-        <div className="row">
-          {tools1.map((tool, index) => (
-            <div key={index} className="col-lg-2 col-md-4">
-              <img src={tool} alt={tool} />
-            </div>
-          ))}
-        </div>
-
-        <div className="row">
-          {tools2.map((tool, index) => (
-            <div key={index} className="col-lg-2 col-md-4">
-              <img src={tool} alt={tool} />
-            </div>
-          ))}
-        </div>
+      <div className={classes.gridContainer}>
+        {tools.map((tool, index) => (
+          <div key={index} className={classes.gridItem}>
+            <img src={tool} alt={tool} />
+          </div>
+        ))}
       </div>
+
       <hr />
     </div>
   );

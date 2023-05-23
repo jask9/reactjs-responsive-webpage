@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./Introduction.module.css";
 
-import awardImg from "../assets/award.jpg";
-import googleLogo from "../assets/google-logo.jpg";
-import nsdcLogo from "../assets/nsdc-logo.jpg";
-import bannerImg from "../assets/banner-image.png";
+import awardImg from "../../assets/award.jpg";
+import googleLogo from "../../assets/google-logo.jpg";
+import nsdcLogo from "../../assets/nsdc-logo.jpg";
+import bannerImg from "../../assets/banner-image.png";
 
 function Introduction() {
   return (

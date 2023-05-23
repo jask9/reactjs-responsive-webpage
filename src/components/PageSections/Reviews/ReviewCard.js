@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./ReviewCard.module.css";
 
-import avatar from "../assets/avatars/girl1.png";
+import avatar from "../../../assets/avatars/girl1.png";
 
 function ReviewCard(props) {
   return (

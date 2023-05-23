@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactjs-responsive-webpage/static/css/main.6aa1e86e.css",
-    "main.js": "/reactjs-responsive-webpage/static/js/main.ec63d614.js",
+    "main.css": "/reactjs-responsive-webpage/static/css/main.ee91712d.css",
+    "main.js": "/reactjs-responsive-webpage/static/js/main.2616318f.js",
     "static/media/banner-image.png": "/reactjs-responsive-webpage/static/media/banner-image.a5d4980bafe3aec4a898.png",
     "static/media/Grammarly.png": "/reactjs-responsive-webpage/static/media/Grammarly.48f480be172224c80b18.png",
     "static/media/Shopify.webp": "/reactjs-responsive-webpage/static/media/Shopify.1559cb3472aa38ea3ec3.webp",
     "index.html": "/reactjs-responsive-webpage/index.html",
-    "main.6aa1e86e.css.map": "/reactjs-responsive-webpage/static/css/main.6aa1e86e.css.map",
-    "main.ec63d614.js.map": "/reactjs-responsive-webpage/static/js/main.ec63d614.js.map"
+    "main.ee91712d.css.map": "/reactjs-responsive-webpage/static/css/main.ee91712d.css.map",
+    "main.2616318f.js.map": "/reactjs-responsive-webpage/static/js/main.2616318f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aa1e86e.css",
-    "static/js/main.ec63d614.js"
+    "static/css/main.ee91712d.css",
+    "static/js/main.2616318f.js"
   ]
 }

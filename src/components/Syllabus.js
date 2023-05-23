@@ -68,15 +68,13 @@ function Syllabus() {
       <div className={classes.container2}>
         <div className={classes.leftContainer}>
           {TERMS_DATA.map((data) => (
-            <div>
-              <SyllabusTerms
-                key={data.id}
-                id={data.id}
-                term={data.term}
-                summary={data.summary}
-                topics={data.topics}
-              />{" "}
-            </div>
+            <SyllabusTerms
+              key={data.id}
+              id={data.id}
+              term={data.term}
+              summary={data.summary}
+              topics={data.topics}
+            />
           ))}
         </div>
         <div className={classes.rightContainer}>

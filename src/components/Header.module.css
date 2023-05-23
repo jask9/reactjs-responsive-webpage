@@ -10,14 +10,19 @@ nav {
   font-size: 0.9rem;
 }
 
-a {
+.navlinks2 a {
   text-decoration: none;
   margin: 10px;
+  transition: 0.3s ease-in;
 }
 
-/* .program {
-    margin-right: 90px;
-} */
+.navlinks2 a:hover {
+  color: white;
+}
+
+.navlinks2 p:hover {
+  color: white;
+}
 
 .navlinks1 {
   display: flex;

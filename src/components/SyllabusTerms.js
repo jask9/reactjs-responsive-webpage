@@ -17,20 +17,20 @@ function SyllabusTerms(props) {
               className={`${"btn btn-primary"} ${classes.expandBtn}`}
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseExample"
+              data-bs-target={`#${props.id}`}
             >
               Modules Covered:
             </button>
           </p>
-          <div className="collapse" id="collapseExample">
+          <div className="collapse" id={props.id}>
             <div className="card card-body">
-              {props.topics.map((topic) => (
-                <ul className={classes.list}>
-                  <li className={classes.listItems} key={props.id}>
+              <ul className={classes.list}>
+                {props.topics.map((topic, index) => (
+                  <li className={classes.listItems} key={index}>
                     {topic}
                   </li>
-                </ul>
-              ))}
+                ))}
+              </ul>
             </div>
           </div>
         </div>

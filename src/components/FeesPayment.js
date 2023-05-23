@@ -35,8 +35,8 @@ function FeesPayment() {
             <h4>What's Included</h4>
             <h5>Features/Benefits</h5>
             <ul>
-              {FEATURES.map((feature) => (
-                <li>
+              {FEATURES.map((feature, index) => (
+                <li key={index}>
                   <table>
                     <tbody>
                       <tr>

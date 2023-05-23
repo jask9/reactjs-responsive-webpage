@@ -28,7 +28,7 @@ function Header() {
           width="25"
           height="25"
           fill="currentColor"
-          class="bi bi-x-lg"
+          className="bi bi-x-lg"
           viewBox="0 0 16 16"
         >
           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
@@ -86,14 +86,14 @@ function Header() {
               width="25"
               height="25"
               fill="currentColor"
-              class="bi bi-columns-gap"
+              className="bi bi-columns-gap"
               viewBox="0 0 16 16"
             >
               <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
             </svg>
           </a>
         </div>
-        <a className={classes.program} href="#">
+        <span >
           <Dropdown
             title="Programs"
             links={[
@@ -103,13 +103,13 @@ function Header() {
               "Customised Trainings",
             ]}
           />
-        </a>
+        </span>
       </div>
       {!openNav ? hamburgerMenuBtn : responsiveSideNavbar}
       <div className={classes.navlinksRow}>
         <ul className={classes.navlinks2}>
           <li>
-            <a href="#">
+            <span>
               <Dropdown
                 title="About"
                 links={[
@@ -119,15 +119,15 @@ function Header() {
                   "Testimonials",
                 ]}
               />
-            </a>
+            </span>
           </li>
           <li>
-            <a href="#">
+            <span>
               <Dropdown
                 title="Placements"
                 links={["Our Recruiters", "Placement Report"]}
               />
-            </a>
+            </span>
           </li>
           <li>
             <a href="#">Hire from Us</a>
@@ -136,12 +136,12 @@ function Header() {
             <a href="#">Work with Us</a>
           </li>
           <li>
-            <a href="#">
+            <span>
               <Dropdown
                 title="Knowledge Portal"
                 links={["Blogs", "Case Studies", "Presentations"]}
               />
-            </a>
+            </span>
           </li>
           <li>
             <a href="#">Contact Us</a>

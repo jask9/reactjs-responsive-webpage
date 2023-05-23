@@ -1,24 +1,26 @@
-ul {
-  list-style: none;
-}
 .dropbtn {
   background-color: transparent;
   color: aqua;
   padding: 10px;
-  /* font-size: 16px; */
   border-radius: 25px;
   border: none;
+}
+
+.dropbtn a {
+  transition: 0.3s ease-in;
+}
+
+.dropbtn a:hover {
+  color: white;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  /* margin: 10px; */
 }
 
-
-
 .dropdownContent {
+  text-align: left;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -26,6 +28,15 @@ ul {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   transition: 0.3s ease-in;
+}
+
+.dropdownContent ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.dropdownContent li {
+  margin: 0;
 }
 
 .dropdownContent li a {
@@ -42,8 +53,4 @@ ul {
 
 .dropdown:hover .dropdownContent {
   display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: powderblue;
 }

@@ -21,6 +21,7 @@ function Highlights() {
     <div className={classes.mainContainer}>
       <div>
         <h2>Key Highlights</h2>
+        <hr width="10%" color="#012d36" size="8" align="left" />
       </div>
       <div className="row">
         <div className="col-lg-4 col-sm-6">
@@ -37,13 +38,15 @@ function Highlights() {
             ))}
           </ul>
         </div>
-        <div className="col-lg-4 col-sm-12">
+
+        <div className={`${"col-lg-4 col-sm-12"} ${classes.downloadBox}`}>
           <p>Get familiar with our online digital marketing course syllabus.</p>
           <button type="button" className="btn btn-primary">
             Download Brochure
           </button>
         </div>
       </div>
+      <hr />
     </div>
   );
 }

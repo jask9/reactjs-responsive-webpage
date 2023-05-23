@@ -1,11 +1,13 @@
 nav {
   width: 100%;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   padding: 20px 2%;
   align-items: center;
+  background-color: rgb(46, 46, 46);
   border-bottom: 1px solid grey;
+  font-size: 0.9rem;
 }
 
 a {
@@ -38,6 +40,7 @@ nav .menuBtn {
   font-weight: bolder;
   cursor: pointer;
   display: none;
+  color: aqua;
 }
 
 /* RESPONSIVE NAVBAR CSS */

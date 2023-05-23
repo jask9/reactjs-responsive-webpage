@@ -1,0 +1,24 @@
+.termContainer {
+    margin-bottom:7px;
+}
+
+.expandBtn {
+  width: 100%;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 2px;
+}
+
+.listItems {
+  margin: 0;
+  padding: 3px 2px;
+  transition: 0.3s ease-in; 
+}
+
+.listItems:hover {
+  cursor: pointer;
+  background-color: #ECF8F9;
+}

@@ -4,7 +4,16 @@ function HighlightsItems(props) {
   return (
     <>
       <div>
-        <li>✔️{props.listItem}</li>
+        <li>
+          <table>
+            <tbody>
+              <tr>
+                <td>✔️</td>
+                <td> {props.listItem}</td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
       </div>
     </>
   );

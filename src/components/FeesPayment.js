@@ -16,13 +16,11 @@ const FEATURES = [
 function FeesPayment() {
   return (
     <div className={classes.mainContainer}>
-      <div>
-        <h2>Fees and Financing</h2>
-        <hr />
-      </div>
+      <h2>Fees and Financing</h2>
+      <hr width="10%" color="#012d36" size="8" align="left" />
 
-      <div className={classes.wrapperContainer}>
-        <div className={classes.leftContainer}>
+      <div className={`${"row"} ${classes.wrapperContainer}`}>
+        <div className={`${"col-lg-6 col-md-12"} ${classes.leftContainer}`}>
           <div className={classes.container1}>
             <div className={classes.childCont}>
               <p>Fees:</p>
@@ -38,15 +36,21 @@ function FeesPayment() {
             <h5>Features/Benefits</h5>
             <ul>
               {FEATURES.map((feature) => (
-                <>
-                  {/* <span>✔️</span> */}
-                  <li>✔️{feature}</li>
-                </>
+                <li>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>✔️</td>
+                        <td>{feature}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </li>
               ))}
             </ul>
           </div>
         </div>
-        <div className={classes.rightContainer}>
+        <div className={`${"col-lg-6 col-md-12"} ${classes.rightContainer}`}>
           <InputForm />
         </div>
       </div>

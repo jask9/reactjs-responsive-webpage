@@ -25,7 +25,7 @@ function Introduction() {
             experts in a comprehensive and question-oriented format.
           </p>
           <p>100% Job Assistance | Video Lectures + Live Online Sessions</p>
-          <p>Scholarship Deadline : May 26, 2023</p>
+          <p className="red">Scholarship Deadline : May 26, 2023</p>
           <button type="button" className="btn btn-primary">
             Download Brochure
           </button>
@@ -33,7 +33,11 @@ function Introduction() {
           <div className={classes.approvalContainer}>
             <div className={classes.approval}>
               <p>Certificate in Alignment with</p>
-              <img className={classes.logo} src={googleLogo} alt="google-logo" />
+              <img
+                className={classes.logo}
+                src={googleLogo}
+                alt="google-logo"
+              />
             </div>
             <div className={classes.approval}>
               <p>Approved by</p>
@@ -70,10 +74,6 @@ function Introduction() {
             <h3>7:00 PM to 9:00 PM</h3>
             <p>Lecture Timings(IST)</p>
           </div>
-          {/* <div className="col-lg-2 col-sm-3">
-            <h3>0%</h3>
-            <p>EMI Available</p>
-          </div> */}
         </div>
       </div>
     </>

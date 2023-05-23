@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import React, { useState, useRef } from "react";
 import classes from "./InputForm.module.css";
 
 const isEmpty = (value) => value.trim() === "";
@@ -60,7 +60,7 @@ function InputForm(props) {
   return (
     <div>
       <h2>I'm Interested In This Programme</h2>
-      <p>Scholarship Deadline: May 26, 2023</p>
+      <p className="red">Scholarship Deadline: May 26, 2023</p>
 
       <div>
         <form className={classes.form} onSubmit={confirmHandler}>
@@ -71,7 +71,9 @@ function InputForm(props) {
           >
             <label htmlFor="name">Your Name</label>
             <input id="name" type="text" ref={nameInputRef} />
-            {!formInputsValidity.name && <p>Please enter a valid name!</p>}
+            {!formInputsValidity.name && (
+              <p className="red">Please enter a valid name!</p>
+            )}
           </div>
           <div
             className={`${classes.control} ${
@@ -80,7 +82,9 @@ function InputForm(props) {
           >
             <label htmlFor="email">Email</label>
             <input id="email" type="text" ref={emailInputRef} />
-            {!formInputsValidity.email && <p>Please enter a valid email!</p>}
+            {!formInputsValidity.email && (
+              <p className="red">Please enter a valid email!</p>
+            )}
           </div>
           <div
             className={`${classes.control} ${
@@ -90,7 +94,9 @@ function InputForm(props) {
             <label htmlFor="mobile">Mobile</label>
             <input id="mobile" type="text" ref={mobileInputRef} />
             {!formInputsValidity.mobile && (
-              <p>Please enter a valid mobile! (10 digits long)</p>
+              <p className="red">
+                Please enter a valid mobile! (10 digits long)
+              </p>
             )}
           </div>
           <div
@@ -100,11 +106,13 @@ function InputForm(props) {
           >
             <label htmlFor="city">City</label>
             <input id="city" type="text" ref={cityInputRef} />
-            {!formInputsValidity.city && <p>Please enter a valid city!</p>}
+            {!formInputsValidity.city && (
+              <p className="red">Please enter a valid city!</p>
+            )}
           </div>
-          <div className={classes.actions}>
-            <button>Continue</button>
-          </div>
+          <button className={`${"btn btn-primary"} ${classes.submitBtn}`}>
+            SUBMIT
+          </button>
         </form>
       </div>
     </div>

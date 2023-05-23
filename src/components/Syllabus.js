@@ -55,6 +55,7 @@ function Syllabus() {
 
       <div className={classes.topContainer}>
         <h2>Online Digital Marketing Course Syllabus</h2>
+        <hr width="10%" color="#012d36" size="8" align="left" />
         <p>
           Our hybrid digital marketing course is designed to teach students the
           basics to the advanced level concepts of digital marketing with
@@ -98,11 +99,12 @@ function Syllabus() {
             <div className={`${"col-lg-6 col-md-12"} ${classes.smallBox}`}>
               <h4>Download</h4>
               <p>Detailed course syllabus and trainer list</p>
-              <button>GET SYLLABUS</button>
+              <button className="btn btn-primary">GET SYLLABUS</button>
             </div>
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 }

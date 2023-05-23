@@ -25,8 +25,8 @@ function Header() {
       <a href="#" className={classes.closeBtn} onClick={closeNavHandler}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
+          width="25"
+          height="25"
           fill="currentColor"
           class="bi bi-x-lg"
           viewBox="0 0 16 16"

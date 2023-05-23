@@ -11,6 +11,7 @@ function Career() {
   return (
     <div className={classes.mainContainer}>
       <h2>Career Opportunities after IIDE's Online Digital Marketing Course</h2>
+      <hr width="10%" color="#012d36" size="8" align="left" />
 
       <p>
         IIDE's online digital marketing course provides 100% placement
@@ -20,7 +21,11 @@ function Career() {
         resumes tailored to perfection.
       </p>
       {!isReadMore && (
-        <button type="button" onClick={readMoreHandler}>
+        <button
+          type="button"
+          className="btn btn-secondary"
+          onClick={readMoreHandler}
+        >
           Read More...
         </button>
       )}
@@ -63,11 +68,16 @@ function Career() {
             and includes hands-on projects that provide practical experience to
             students. Read Less
           </p>
-          <button type="button" onClick={() => setReadMore(false)}>
+          <button
+            type="button"
+            className="btn btn-secondary"
+            onClick={() => setReadMore(false)}
+          >
             Read Less
           </button>
         </>
       )}
+      <hr />
     </div>
   );
 }

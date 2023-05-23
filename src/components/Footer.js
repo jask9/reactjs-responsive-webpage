@@ -3,26 +3,25 @@ import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    // <div className={classes.mainContainer}>
     <footer>
       <div className={classes.top}>
         <div className={classes.pages}>
           <ul>
-            <h3>Brand Name</h3>
+            <h3>Company</h3>
             <li>
-              <a href="#">Home</a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">Catalog</a>
+              <a href="#">Corporate Training</a>
             </li>
             <li>
-              <a href="#">Search</a>
+              <a href="#">Contact Us</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">Refer & Earn</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Address</a>
             </li>
           </ul>
 
@@ -37,18 +36,18 @@ function Footer() {
           </ul>
 
           <ul>
-            <h3>About Us</h3>
+            <h3>Resources</h3>
             <li>
-              <a href="#">Meet Our Team</a>
+              <a href="#">Blogs</a>
             </li>
             <li>
-              <a href="#">Our Responsibilities</a>
+              <a href="#">Presentations</a>
             </li>
             <li>
-              <a href="#">Our Codes</a>
+              <a href="#">Case Studies</a>
             </li>
             <li>
-              <a href="#">Our Values</a>
+              <a href="#">Course Structure</a>
             </li>
           </ul>
         </div>
@@ -132,10 +131,9 @@ function Footer() {
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>
         </div>
-        <div class="copyright">2021 Copyright &copy; Sean B</div>
+        <div class="copyright">2023 Copyright &copy; JK</div>
       </div>
     </footer>
-    // </div>
   );
 }
 

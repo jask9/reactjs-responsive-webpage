@@ -29,7 +29,8 @@ function ToolsSection() {
   return (
     <div className={classes.toolsContainer}>
       <h2>Tools You'll Master</h2>
-      <hr />
+      <hr width="10%" color="#012d36" size="8" align="left" />
+
       <div>
         <div className="row">
           {tools1.map((tool, index) => (
@@ -47,6 +48,7 @@ function ToolsSection() {
           ))}
         </div>
       </div>
+      <hr />
     </div>
   );
 }

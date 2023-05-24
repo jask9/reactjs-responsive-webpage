@@ -76,22 +76,26 @@ nav .menuBtn {
   position: fixed;
   top: 0;
   right: 0%;
-  background-color: #f1f5f8;
+  background-color: #474849;
   overflow-x: hidden;
   z-index: 200;
+}
+
+.sideNav h4 {
+  font-weight: 700;
 }
 
 .sideNav a {
   padding: 8px 8px 8px 40px;
   display: block;
-  font-size: 25px;
+  font-size: 16px;
   color: aqua;
   transition: 0.3s ease-in;
   text-decoration: none;
 }
 
 .sideNav a:hover {
-  color: black;
+  color: white;
 }
 
 .sideNav .closeBtn {

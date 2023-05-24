@@ -34,10 +34,10 @@ function Header() {
           <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
         </svg>
       </a>
+
       <h4>
         <a href="#">About</a>
       </h4>
-
       <ul>
         <li>
           <a href="#">About Us</a>
@@ -52,10 +52,10 @@ function Header() {
           <a href="#">Testimonials</a>
         </li>
       </ul>
+
       <h4>
         <a href="#">Knowledge Portal</a>
       </h4>
-
       <ul>
         <li>
           <a href="#">Blogs</a>
@@ -67,9 +67,11 @@ function Header() {
           <a href="#">Presentations</a>
         </li>
       </ul>
+
       <h4>
         <a href="#">Work with Us</a>
       </h4>
+
       <h4>
         <a href="#">Contact Us</a>
       </h4>
@@ -93,7 +95,7 @@ function Header() {
             </svg>
           </a>
         </div>
-        <span >
+        <span>
           <Dropdown
             title="Programs"
             links={[

@@ -127,7 +127,7 @@ function Footer() {
         </svg>
       </div>
       <div className={classes.info}>
-        <div className="legal">
+        <div className={classes.legal}>
           <a href="#">Terms & Conditions</a>
           <a href="#">Privacy Policy</a>
         </div>

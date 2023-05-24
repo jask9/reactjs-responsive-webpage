@@ -2,9 +2,9 @@ import React, { useState, useRef } from "react";
 import classes from "./InputForm.module.css";
 
 const isEmpty = (value) => value.trim() === "";
-const isSixChars = (value) => value.trim().length === 6;
+const isTenChars = (value) => value.trim().length === 10;
 
-function InputForm(props) {
+function InputForm() {
   const [formInputsValidity, setFormInputsValidity] = useState({
     name: true,
     email: true,
@@ -30,7 +30,7 @@ function InputForm(props) {
     const enteredNameIsValid = !isEmpty(enteredName);
     const enteredEmailIsValid = !isEmpty(enteredEmail);
     const enteredCityIsValid = !isEmpty(enteredCity);
-    const enteredMobileIsValid = isSixChars(enteredMobile);
+    const enteredMobileIsValid = isTenChars(enteredMobile);
 
     setFormInputsValidity({
       name: enteredNameIsValid,
@@ -48,13 +48,6 @@ function InputForm(props) {
     if (!formIsValid) {
       return;
     }
-
-    props.onConfirm({
-      name: enteredName,
-      email: enteredEmail,
-      city: enteredCity,
-      mobile: enteredMobile,
-    });
   }
 
   return (

@@ -2,10 +2,6 @@
   margin: 3% 9%;
 }
 
-.topContainer {
-  display: inline-block;
-}
-
 .container2 {
   display: flex;
   align-items: center;
